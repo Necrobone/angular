@@ -1,2 +1,2 @@
-<app-persons-input></app-persons-input>
+<app-persons-input (personCreate)="onPersonCreated($event)"></app-persons-input>
 <app-persons [persons]="persons"></app-persons>
