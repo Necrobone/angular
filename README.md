@@ -1,2 +1,2 @@
-# angular
-Angular learning project
+# Angular
+Angular learning Projects
