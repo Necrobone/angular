@@ -9,7 +9,8 @@ import {PersonsService} from './persons.service';
 export class PersonsInputComponent {
   enteredPersonName = '';
 
-  constructor(private service: PersonsService) {}
+  constructor(private service: PersonsService) {
+  }
 
   onCreatePerson() {
     console.log('Created a person: ' + this.enteredPersonName);
